@@ -1,0 +1,89 @@
+
+.line {
+    margin: 0 auto;
+    width: 400px;
+    height: 2px;
+    background: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line-about {
+
+    width: 400px;
+    height: 2px;
+    background: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* header section */
+
+.masthead {
+    background-color: rgba(97, 97, 97, 0.568);
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../asset/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+
+}
+
+/* About section */
+.sec-bg{
+    background-color: rgb(244, 244, 255);
+    padding:5vh 0 5vh 0;
+}
+
+.parent {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lift-side{
+    background: #000;
+    height: 510px;
+    width: 250px;
+    background-image: url('../asset/about1.jpg');
+    margin-right: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.small1 {
+    background: #000;
+    background-image: url('../asset/about2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 0px 7px 0px 0px;
+}
+
+.small2{
+    background: #000;
+    background-image: url('../asset/about3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 0px 0px 7px 0px;
+}
+
+
+
+
+/* contact section */
+
+.con-center {
+    margin: 0 auto;
+}
